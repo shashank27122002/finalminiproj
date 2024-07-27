@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles1.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="script1.js" defer></script>
+</head>
+<body> 
+    <header class="header">
+        <a href="#" class="logo">Welcome</a>
+        <button class="menu-toggle">&#9776;</button>
+        <nav class="navbar">
+            <a href="dashboard.html">Dashboard</a>
+            <a href="details.html" target="_self">Details</a>
+            <a href="about.html" target="_self">About</a>
+            <a href="contact.html" target="_self">Contact</a>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="chart-container">
+        <canvas id="barChart"></canvas>
+        <canvas id="marksPieChart"></canvas>
+        <canvas id="timePieChart"></canvas>
+        <canvas id="homeworkChart"></canvas>
+        <canvas id="participationChart"></canvas>
+        <canvas id="extraCreditChart"></canvas>
+        <canvas id="predictedMarksChart"></canvas>
+    </div>
+    <section class="subjects-section">
+        <h2>Subject Details</h2>
+        <ul id="subjectDetailsList"></ul>
+    </section>
+</body>
+</html>
